@@ -1,0 +1,30 @@
+{
+  "name": "adespresso/oauth2-getresponse",
+  "description": "GetResponse OAuth 2 Client Provider for The PHP League OAuth2-Client package",
+  "license": "MIT",
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authorisation",
+    "getresponse"
+  ],
+  "require": {
+    "league/oauth2-client": "^2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.5",
+    "squizlabs/php_codesniffer": "~3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "AdEspresso\\OAuth2\\Client\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AdEspresso\\OAuth2\\Client\\Test\\": "tests/src/"
+    }
+  }
+}

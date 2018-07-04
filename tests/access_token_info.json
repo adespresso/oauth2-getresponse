@@ -1,0 +1,26 @@
+{
+  "accountId": "account-id",
+  "firstName": "first-name",
+  "lastName": "last-name",
+  "email": "email",
+  "phone": "phone",
+  "companyName": "",
+  "state": "",
+  "city": "city",
+  "street": "street",
+  "zipCode": "zip.code",
+  "countryCode": {
+    "countryCodeId": "country-code-id",
+    "countryCode": "country-code"
+  },
+  "industryTag": {
+    "industryTagId": null
+  },
+  "numberOfEmployees": null,
+  "timeFormat": "24h",
+  "timeZone": {
+    "name": "Europe\/Rome",
+    "offset": "+01:00"
+  },
+  "href": "https:\/\/api.getresponse.com\/v3\/accounts"
+}
